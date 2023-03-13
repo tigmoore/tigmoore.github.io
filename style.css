@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+#nav a{
+    display: inline;
+    padding-right: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+    .padding-20 {
+      padding: 10px;
+    }
+    #nav a{
+        display: inline;
+        padding-right: 10px;
+    }
+    div.center-container {
+        flex-direction: column; 
+    }
+}
+
+
+footer{
+    text-align: center;
+    background-color: rgb(127, 127, 223)
+}
+.padding-20 {
+    padding: 20px;
+  }
+
+
+.center-text{
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(197, 206, 247);
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.center-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 0;
+}
+
+.left-sidebar {
+    background: linear-gradient(to bottom, rgb(197, 206, 247) 0%, rgb(127, 127, 223) 100%);
+    flex: 0 0 20%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-section {
+    background-color: white;
+    flex: 1 0 0;
+    text-align: left;
+}
+
+.resume-entry {
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 80% 
+}
+
+.resume-col-1 {
+    flex: 0 0 80%;
+    text-align: left;
+}
+
+.resume-col-2 {
+    flex: 0 0 20%;
+    text-align: left;
+}
+
+.profile-picture {
+border-radius: 40%;
+}
+
+.prog_bar{
+    width: 70%;
+    height: 25px;
+}
